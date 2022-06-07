@@ -1,0 +1,19 @@
+{
+  "name": "javascript-edhub-form-validation",
+  "version": "1.0.0",
+  "description": "Je gaat een sign-up pagina maken met daarin een invoerveld voor het **wachtwoord** en voor de **gebruikersnaam**.\r Met behulp van JavaScript ga je de waardes die de gebruiker intypt, valideren.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hogeschoolnovi/javascript-edhub-form-validation.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hogeschoolnovi/javascript-edhub-form-validation/issues"
+  },
+  "homepage": "https://github.com/hogeschoolnovi/javascript-edhub-form-validation#readme"
+}
