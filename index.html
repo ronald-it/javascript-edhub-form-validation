@@ -6,13 +6,22 @@
     <title>Form validation</title>
 </head>
 <body>
-<h1>Form validation</h1>
+<div id="registration-card"><h1>Registreren</h1>
 
-<!--HTML & CSS-->
-<!--1. Maak een formulier in de HTML met daarin een <input> voor een gebruikersnaam en een voor het wachtwoord-->
+    <!--HTML & CSS-->
+    <!--1. Maak een formulier in de HTML met daarin een <input> voor een gebruikersnaam en een voor het wachtwoord-->
+    <form action="" id="username-and-password-form"><label id="username-label" for="username-input">Gebruikersnaam: </label>
+        <br>
+        <input type="text" name="username" id="username-input"/>
+        <p class="form-warning" id="username-warning"></p>
+        <label id="password-label" for="password-input">Wachtwoord: </label>
+        <br>
+        <input type="password" name="password" id="password-input"/>
+        <p class="form-warning" id="password-warning"></p>
+    </form>
+    <!--2. Maak een <span> of <p> element voor beide invoervelden, waar de waarschuwing in kan.-->
 
-<!--2. Maak een <span> of <p> element voor beide invoervelden, waar de waarschuwing in kan.-->
-
-<script type="module"  src="main.js"></script>
+    <script type="module" src="main.js"></script>
+</div>
 </body>
 </html>

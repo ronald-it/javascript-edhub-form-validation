@@ -1,3 +1,31 @@
+#registration-card {
+  background: #90ee90;
+  flex-direction: column;
+  justify-content: center;
+  margin: 100px;
+  padding: 25px;
+  display: flex;
+}
 
+#username-warning, #password-warning {
+  color: red;
+  font-weight: bold;
+}
+
+#username-input, #password-input {
+  padding-right: 360px;
+}
+
+#username-label, #password-label {
+  font-family: sans-serif;
+  font-size: large;
+  font-weight: bold;
+}
+
+.form-warning {
+  color: red;
+  min-height: 16px;
+  font-size: 10px;
+}
 
 /*# sourceMappingURL=index.1303bb05.css.map */

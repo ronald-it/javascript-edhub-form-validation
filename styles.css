@@ -3,3 +3,34 @@
 /*1. Maak een formulier in de HTML met daarin een <input> voor een gebruikersnaam en een voor het wachtwoord*/
 
 /*2. Maak een <span> of <p> element voor beide invoervelden, waar de waarschuwing in kan.*/
+
+#registration-card {
+    background: lightgreen;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 100px;
+    padding: 25px;
+}
+
+#username-warning, #password-warning {
+    color: red;
+    font-weight: bold;
+}
+
+#username-input, #password-input {
+    padding-right: 360px;
+}
+
+#username-label, #password-label {
+    font-size: large;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.form-warning {
+    color: red;
+    font-size: 10px;
+    /*dit zorgt ervoor dat als er content in de p tag gezet wordt, de rest van de elementen niet verspringt*/
+    min-height: 16px;
+}
